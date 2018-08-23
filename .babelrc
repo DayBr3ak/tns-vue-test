@@ -1,0 +1,11 @@
+{
+  "presets": [
+    ["env", {
+      "cacheDirectory": true ,
+      "targets": {
+        "node": "current"
+      }
+    }]
+  ],
+  "plugins": ["transform-object-rest-spread"]
+}
